@@ -1,0 +1,151 @@
+@media (max-width:900px){
+
+    .insta img{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+
+    .section-1{
+        display:block;
+    }
+    .section-1 .desk{
+        margin-left: 10px;
+        width: 100%;
+    }
+    .section-1 .desk img{
+        width: 60%;
+        /* height: 40%; */
+    }
+    .section-1 .text .p{
+        margin-top: 50px;
+    }
+    /* section-2 */
+    .section-2 h1{
+        padding-left: 10px;
+    }
+    .section-2 .main{
+        display: block;
+        margin-top: 50px;
+    }
+
+    .section-3{
+        display: block;
+    }
+    .section-3 .photo{
+        margin-left:20px;
+        width:100%;
+    }
+    .section-3 .photo img{
+        width: 60%;
+    }
+    .section-4{
+        height:300px;
+        margin-left: 40px;
+    }
+    .section-4 p{
+        /* width: 70%; */
+    }
+    .footer{
+        display: block;
+    }
+    .footer .main-form{
+        display: block;
+        position:relative;
+    }
+    .footer .form{
+        display: block;
+        position:absolute;
+    }
+    .footer .form-2 {
+        display: block;
+        position:absolute;
+        margin-left:0px;
+        left: 0px;
+        top: 80px;
+    }
+    .massage{
+        margin-top: 200px;
+    }
+    .footer .massage .under{
+        height: 200px;
+    }
+    .footer .massage .under h1{
+        margin-left: 5px;
+    }
+    .footer .photo{
+        padding-left: 20px;
+        /* width: 100%; */
+        
+    }
+    .footer .photo img{
+        width: 70%;
+        /* height: 40%; */
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+    .bar {
+      width: 30px;
+      height: 3px;
+      background-color:black;
+      margin: 6px 0;
+      margin-right: 40px;
+    }
+   
+    .list {
+      height: 0;
+      display: flex;
+      position: absolute;
+      top: 100px;
+      left: 0;
+      right: 0;
+      width: 100vw;
+      background-color: black;
+      transition: 0.5s;
+      color: azure;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .list.show{
+      height: 400px;
+    }
+    .list.show ul{
+      opacity: 1;
+    }
+    
+    .list ul{
+  flex-direction: column;
+  /* display: block; */
+  width: fit-content;
+  margin: 50px auto 0 auto;
+  opacity: 1;
+  color: white;
+    }
+    .list ul li{
+      padding: 20px;
+      font-size: larger;
+      font-weight: bold;
+    }
+    .list ul img{
+        color:#ffff;
+    }
+    .list ul li a{
+        color:#ffff;
+    }
+    .list .about{
+        color:#ffff;
+
+
+    }
+    .section-4{
+        height: 200px;
+    }
+  }
